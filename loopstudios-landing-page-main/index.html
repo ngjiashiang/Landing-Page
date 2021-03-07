@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"rel="stylesheet">
+
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images\logo.svg" alt="loopstudios logo" id="logo">
+    <a onclick="menuExtend()"><img src="images\icon-hamburger.svg" alt="menu" id="hamburger"></a>
+    <nav class="navbar">
+      <ul id="navlist">
+        <li><a onclick="menuCollapse()"><img src="images\icon-close.svg" alt=""></a></li>
+        <li><a>About</a></li>
+        <li><a>Careers</a></li>
+        <li><a>Events</a></li>
+        <li><a>Products</a></li>
+        <li><a>Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="initialpage">
+      <h1 id="maintext">
+        IMMERSIVE<br>
+        EXPERIENCES<br>
+        THAT<br>
+        DELIVER<br>
+      </h1>
+  </div>
+  <div id='intro'>
+    <img src="images\mobile\image-interactive.jpg" id="introphoto">
+    <div id="introtext">
+      <h1>
+        THE LEADER IN INTERACTIVE VR
+      </h1>
+      <P>
+        Founded in 2011, Loopstudios has been producing world-class virtual reality
+        projects for some of the best companies around the globe. Our award-winning
+        creations have transformed businesses through digital experiences that bind
+        to their brand.
+      </P>
+    </div>
+    
+    
+  </div>
+
+  <div id="creations">
+    <h1>
+      OUR CREATIONS
+    </h1>
+
+    <div class="creationpic">
+      <img src="images\mobile\image-deep-earth.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">Deep earth</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-night-arcade.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">Night arcade</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-soccer-team.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">Soccer team VR</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-grid.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">The grid</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-from-above.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">From up above VR</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-pocket-borealis.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">Pocket borealis</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-curiosity.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">The curiosity</div>
+    </div>
+    <div class="creationpic">
+      <img src="images\mobile\image-fisheye.jpg" alt="Snow" style="width:100%;">
+      <div class="bottom-left">Make it fisheye</div>
+    </div>
+
+    <button id="see-all">SEE ALL</button>
+  </div>
+  <div id="creationspc">
+    <div class="creationhead">
+      <h1>
+        OUR CREATIONS
+      </h1>
+      <button id="see-all">SEE ALL</button>
+    </div>
+    
+    <div class="piccontainer">
+      <div class="creationpicpc">
+        <img src="images\desktop\image-deep-earth.jpg" alt="Snow">
+        <div class="bottom-left">Deep earth</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-night-arcade.jpg" alt="Snow">
+        <div class="bottom-left">Night arcade</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-soccer-team.jpg" alt="Snow">
+        <div class="bottom-left">Soccer team VR</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-grid.jpg" alt="Snow">
+        <div class="bottom-left">The grid</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-from-above.jpg" alt="Snow">
+        <div class="bottom-left">From up above VR</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-pocket-borealis.jpg" alt="Snow">
+        <div class="bottom-left">Pocket borealis</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-curiosity.jpg" alt="Snow">
+        <div class="bottom-left">The curiosity</div>
+      </div>
+      <div class="creationpicpc">
+        <img src="images\desktop\image-fisheye.jpg" alt="Snow">
+        <div class="bottom-left">Make it fisheye</div>
+      </div>
+    </div>
+    
+  
+    
+  </div>
+  <div id="footer">
+    <h2>loopstudios</h2>
+    <a href=""><p>About</p></a>
+    <a href=""><p>Careers</p></a>
+    <a href=""><p>Events</p></a>
+    <a href=""><p>Products</p></a>
+    <a href=""><p>Support</p></a>
+    
+    <div id="social">
+      <a href=""><img src="images\icon-facebook.svg" alt=""></a>
+      <a href=""><img src="images\icon-instagram.svg" alt=""></a>
+      <a href=""><img src="images\icon-pinterest.svg" alt=""></a>
+      <a href=""><img src="images\icon-twitter.svg" alt=""></a>
+    </div>
+    <div id="stickylast">
+      <p>© 2021 Loopstudios. All rights reserved.</p>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by Jia Shiang.
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
