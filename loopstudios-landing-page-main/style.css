@@ -53,7 +53,7 @@ header {
 #navlist img {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  position: absolute;
+  position: fixed;
   right: 5rem;
   top: 0;
 }
