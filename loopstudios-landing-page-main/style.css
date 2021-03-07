@@ -22,7 +22,7 @@ header {
 #logo {
   margin: 1.9rem 0 0 1.5rem;
   width: 40%;
-  z-index:2;
+  z-index:5;
 }
 #hamburger {
   position: fixed;
