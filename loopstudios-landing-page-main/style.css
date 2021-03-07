@@ -22,12 +22,14 @@ header {
 #logo {
   margin: 1.9rem 0 0 1.5rem;
   width: 40%;
+  z-index:2;
 }
 #hamburger {
   position: fixed;
   right: 0;
   margin: 2.1rem 1rem 0 0;
   width: 6.5vw;
+  z-index:2;
 }
 header {
   position: absolute;
